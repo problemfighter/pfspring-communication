@@ -31,6 +31,7 @@ dependencies {
             implementation project(":" + it)
         }
     }
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
 }
 
 bootJar { enabled = false }
